@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    allign-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color:black; 
+}
+
+.wrapper {
+  width: 620px;
+}
+
+.table tr td:first-child {
+    font-weight: 700;
+}
+
+.table tr td {
+    padding: .25rem;
+}
+
+hr {
+    border :1px solid #efefee;
+}
